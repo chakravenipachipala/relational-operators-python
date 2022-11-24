@@ -1,0 +1,25 @@
+#write a prg to find relational operators.
+a = int(input('enter a number'))
+b = int(input('enter a number'))
+#greater than operator(>)
+if a>b:
+    print('a is big')
+else:
+    print('b is big')
+#lessthan operator(<)
+if a<b:
+    print('b is big')
+else:
+    print('a is big')
+#(<=)
+if a<=b:
+    print('b is big')
+#(>=)
+if a>=b:
+    print('a is big')
+#(==)
+if a==b:
+    print('a is equal to b')
+#(!=)
+if a!=b:
+    print('a is not equal to b')
